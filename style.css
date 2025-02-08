@@ -5,6 +5,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+*:focus {
+  padding: 5px;
+}
 
 body {
   font-family: "Varela", sans-serif;
