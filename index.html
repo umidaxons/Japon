@@ -1,0 +1,55 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Japon</title>
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- STYLE -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <button class="btn show-btn" id="show-btn">Japan</button>
+
+      <!-- MODAL -->
+      <div class="modal hidden" id="modal">
+        <!-- MODAL HEADER -->
+        <div class="modal-header">
+          <h3>I love Japan ⭐</h3>
+          <button class="btn close-btn" id="close-btn">
+            <i class="fas fa-close"></i>
+          </button>
+        </div>
+
+        <!-- MODAL BODY -->
+        <div class="modal-body">
+          <h2 class="modal-title">Japan</h2>
+          <p>
+            Yaponiya – texnologiya va an’analar uyg‘unlashgan mamlakat. Uning
+            poytaxti Tokio bo‘lib, dunyoning eng yirik megapolislaridan biri
+            hisoblanadi. Aholisi taxminan 125 million kishini tashkil etadi. Bu
+            yerda samuraylar tarixi, geishalar madaniyati va zamonaviy anime
+            industriyasi birlashgan. Yaponiya oshxonasi juda mashhur bo‘lib,
+            sushi va ramen dunyo bo‘ylab sevib iste’mol qilinadi. Shuningdek, bu
+            mamlakat ilg‘or texnologiyalari bilan ham tanilgan – robotlar,
+            avtomobillar va tezkor poyezdlar shu yerda yaratiladi.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- OVERLAY -->
+    <div class="overlay hidden" id="overlay"></div>
+
+    <!-- JS -->
+    <script src="app.js"></script>
+  </body>
+</html>
